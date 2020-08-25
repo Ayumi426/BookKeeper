@@ -6,7 +6,8 @@ target 'BookKeeper' do
   use_frameworks!
 
   # Pods for BookKeeper
-  pod ‘Firebase/Core’
-  pod ‘FirebaseUI’
+  pod 'Firebase/Core'
+  pod 'FirebaseUI'
+  pod 'GoogleBooksApiClient'
 
 end
