@@ -131,13 +131,13 @@
 		D301CDD224F4AD2A000B3510 /* BookKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				D301CE0C24F4BB85000B3510 /* GoogleService-Info.plist */,
 				D301CDD324F4AD2A000B3510 /* AppDelegate.swift */,
 				D301CDD524F4AD2A000B3510 /* SceneDelegate.swift */,
 				D301CE0E24F4D85A000B3510 /* LoginViewController.swift */,
 				D301CDD724F4AD2A000B3510 /* FirstViewController.swift */,
 				D301CDD924F4AD2A000B3510 /* SecondViewController.swift */,
 				D301CDDB24F4AD2A000B3510 /* Main.storyboard */,
-				D301CE0C24F4BB85000B3510 /* GoogleService-Info.plist */,
 				D301CDE124F4AD2C000B3510 /* Assets.xcassets */,
 				D301CDE324F4AD2C000B3510 /* LaunchScreen.storyboard */,
 				D301CDE624F4AD2C000B3510 /* Info.plist */,
