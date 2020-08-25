@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58819530CEE48298C912EF7F /* Pods_BookKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA6A98758D01BBA917B8A2 /* Pods_BookKeeper.framework */; };
+		D301CDD424F4AD2A000B3510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301CDD324F4AD2A000B3510 /* AppDelegate.swift */; };
+		D301CDD624F4AD2A000B3510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301CDD524F4AD2A000B3510 /* SceneDelegate.swift */; };
+		D301CDD824F4AD2A000B3510 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301CDD724F4AD2A000B3510 /* FirstViewController.swift */; };
+		D301CDDA24F4AD2A000B3510 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301CDD924F4AD2A000B3510 /* SecondViewController.swift */; };
+		D301CDDD24F4AD2A000B3510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D301CDDB24F4AD2A000B3510 /* Main.storyboard */; };
+		D301CDE024F4AD2A000B3510 /* BookKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D301CDDE24F4AD2A000B3510 /* BookKeeper.xcdatamodeld */; };
+		D301CDE224F4AD2C000B3510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D301CDE124F4AD2C000B3510 /* Assets.xcassets */; };
+		D301CDE524F4AD2C000B3510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D301CDE324F4AD2C000B3510 /* LaunchScreen.storyboard */; };
+		D301CDF024F4AD2C000B3510 /* BookKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301CDEF24F4AD2C000B3510 /* BookKeeperTests.swift */; };
+		D301CDFB24F4AD2C000B3510 /* BookKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301CDFA24F4AD2C000B3510 /* BookKeeperUITests.swift */; };
+		D301CE0D24F4BB85000B3510 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D301CE0C24F4BB85000B3510 /* GoogleService-Info.plist */; };
+		D301CE0F24F4D85A000B3510 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301CE0E24F4D85A000B3510 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D301CDEC24F4AD2C000B3510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D301CDC824F4AD2A000B3510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D301CDCF24F4AD2A000B3510;
+			remoteInfo = BookKeeper;
+		};
+		D301CDF724F4AD2C000B3510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D301CDC824F4AD2A000B3510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D301CDCF24F4AD2A000B3510;
+			remoteInfo = BookKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085DDA1E8158AA95BA173EA2 /* Pods-BookKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookKeeper.release.xcconfig"; path = "Target Support Files/Pods-BookKeeper/Pods-BookKeeper.release.xcconfig"; sourceTree = "<group>"; };
+		BBAA6A98758D01BBA917B8A2 /* Pods_BookKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC00D5AD0882C2B8614E10E /* Pods-BookKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookKeeper.debug.xcconfig"; path = "Target Support Files/Pods-BookKeeper/Pods-BookKeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		D301CDD024F4AD2A000B3510 /* BookKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D301CDD324F4AD2A000B3510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D301CDD524F4AD2A000B3510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D301CDD724F4AD2A000B3510 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D301CDD924F4AD2A000B3510 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D301CDDC24F4AD2A000B3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D301CDDF24F4AD2A000B3510 /* BookKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookKeeper.xcdatamodel; sourceTree = "<group>"; };
+		D301CDE124F4AD2C000B3510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D301CDE424F4AD2C000B3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D301CDE624F4AD2C000B3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D301CDEB24F4AD2C000B3510 /* BookKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D301CDEF24F4AD2C000B3510 /* BookKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookKeeperTests.swift; sourceTree = "<group>"; };
+		D301CDF124F4AD2C000B3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D301CDF624F4AD2C000B3510 /* BookKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D301CDFA24F4AD2C000B3510 /* BookKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookKeeperUITests.swift; sourceTree = "<group>"; };
+		D301CDFC24F4AD2C000B3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D301CE0C24F4BB85000B3510 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D301CE0E24F4D85A000B3510 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D301CDCD24F4AD2A000B3510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58819530CEE48298C912EF7F /* Pods_BookKeeper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D301CDE824F4AD2C000B3510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D301CDF324F4AD2C000B3510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CBC043262D335791BD894B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDC00D5AD0882C2B8614E10E /* Pods-BookKeeper.debug.xcconfig */,
+				085DDA1E8158AA95BA173EA2 /* Pods-BookKeeper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99BF97E129BEC15FE19C3013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA6A98758D01BBA917B8A2 /* Pods_BookKeeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D301CDC724F4AD2A000B3510 = {
+			isa = PBXGroup;
+			children = (
+				D301CDD224F4AD2A000B3510 /* BookKeeper */,
+				D301CDEE24F4AD2C000B3510 /* BookKeeperTests */,
+				D301CDF924F4AD2C000B3510 /* BookKeeperUITests */,
+				D301CDD124F4AD2A000B3510 /* Products */,
+				8CBC043262D335791BD894B6 /* Pods */,
+				99BF97E129BEC15FE19C3013 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D301CDD124F4AD2A000B3510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D301CDD024F4AD2A000B3510 /* BookKeeper.app */,
+				D301CDEB24F4AD2C000B3510 /* BookKeeperTests.xctest */,
+				D301CDF624F4AD2C000B3510 /* BookKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D301CDD224F4AD2A000B3510 /* BookKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				D301CDD324F4AD2A000B3510 /* AppDelegate.swift */,
+				D301CDD524F4AD2A000B3510 /* SceneDelegate.swift */,
+				D301CE0E24F4D85A000B3510 /* LoginViewController.swift */,
+				D301CDD724F4AD2A000B3510 /* FirstViewController.swift */,
+				D301CDD924F4AD2A000B3510 /* SecondViewController.swift */,
+				D301CDDB24F4AD2A000B3510 /* Main.storyboard */,
+				D301CE0C24F4BB85000B3510 /* GoogleService-Info.plist */,
+				D301CDE124F4AD2C000B3510 /* Assets.xcassets */,
+				D301CDE324F4AD2C000B3510 /* LaunchScreen.storyboard */,
+				D301CDE624F4AD2C000B3510 /* Info.plist */,
+				D301CDDE24F4AD2A000B3510 /* BookKeeper.xcdatamodeld */,
+			);
+			path = BookKeeper;
+			sourceTree = "<group>";
+		};
+		D301CDEE24F4AD2C000B3510 /* BookKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D301CDEF24F4AD2C000B3510 /* BookKeeperTests.swift */,
+				D301CDF124F4AD2C000B3510 /* Info.plist */,
+			);
+			path = BookKeeperTests;
+			sourceTree = "<group>";
+		};
+		D301CDF924F4AD2C000B3510 /* BookKeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D301CDFA24F4AD2C000B3510 /* BookKeeperUITests.swift */,
+				D301CDFC24F4AD2C000B3510 /* Info.plist */,
+			);
+			path = BookKeeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D301CDCF24F4AD2A000B3510 /* BookKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D301CDFF24F4AD2C000B3510 /* Build configuration list for PBXNativeTarget "BookKeeper" */;
+			buildPhases = (
+				8D7995C833A602169062E5FB /* [CP] Check Pods Manifest.lock */,
+				D301CDCC24F4AD2A000B3510 /* Sources */,
+				D301CDCD24F4AD2A000B3510 /* Frameworks */,
+				D301CDCE24F4AD2A000B3510 /* Resources */,
+				AB4C285684059B4093EA08A7 /* [CP] Embed Pods Frameworks */,
+				F7DCE4401846CAD9152A5FCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookKeeper;
+			productName = BookKeeper;
+			productReference = D301CDD024F4AD2A000B3510 /* BookKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D301CDEA24F4AD2C000B3510 /* BookKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D301CE0224F4AD2C000B3510 /* Build configuration list for PBXNativeTarget "BookKeeperTests" */;
+			buildPhases = (
+				D301CDE724F4AD2C000B3510 /* Sources */,
+				D301CDE824F4AD2C000B3510 /* Frameworks */,
+				D301CDE924F4AD2C000B3510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D301CDED24F4AD2C000B3510 /* PBXTargetDependency */,
+			);
+			name = BookKeeperTests;
+			productName = BookKeeperTests;
+			productReference = D301CDEB24F4AD2C000B3510 /* BookKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D301CDF524F4AD2C000B3510 /* BookKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D301CE0524F4AD2C000B3510 /* Build configuration list for PBXNativeTarget "BookKeeperUITests" */;
+			buildPhases = (
+				D301CDF224F4AD2C000B3510 /* Sources */,
+				D301CDF324F4AD2C000B3510 /* Frameworks */,
+				D301CDF424F4AD2C000B3510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D301CDF824F4AD2C000B3510 /* PBXTargetDependency */,
+			);
+			name = BookKeeperUITests;
+			productName = BookKeeperUITests;
+			productReference = D301CDF624F4AD2C000B3510 /* BookKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D301CDC824F4AD2A000B3510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ayumi Funaki";
+				TargetAttributes = {
+					D301CDCF24F4AD2A000B3510 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D301CDEA24F4AD2C000B3510 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D301CDCF24F4AD2A000B3510;
+					};
+					D301CDF524F4AD2C000B3510 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D301CDCF24F4AD2A000B3510;
+					};
+				};
+			};
+			buildConfigurationList = D301CDCB24F4AD2A000B3510 /* Build configuration list for PBXProject "BookKeeper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D301CDC724F4AD2A000B3510;
+			productRefGroup = D301CDD124F4AD2A000B3510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D301CDCF24F4AD2A000B3510 /* BookKeeper */,
+				D301CDEA24F4AD2C000B3510 /* BookKeeperTests */,
+				D301CDF524F4AD2C000B3510 /* BookKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D301CDCE24F4AD2A000B3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D301CDE524F4AD2C000B3510 /* LaunchScreen.storyboard in Resources */,
+				D301CE0D24F4BB85000B3510 /* GoogleService-Info.plist in Resources */,
+				D301CDE224F4AD2C000B3510 /* Assets.xcassets in Resources */,
+				D301CDDD24F4AD2A000B3510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D301CDE924F4AD2C000B3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D301CDF424F4AD2C000B3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D7995C833A602169062E5FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookKeeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4C285684059B4093EA08A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookKeeper/Pods-BookKeeper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookKeeper/Pods-BookKeeper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookKeeper/Pods-BookKeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DCE4401846CAD9152A5FCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookKeeper/Pods-BookKeeper-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookKeeper/Pods-BookKeeper-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookKeeper/Pods-BookKeeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D301CDCC24F4AD2A000B3510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D301CE0F24F4D85A000B3510 /* LoginViewController.swift in Sources */,
+				D301CDDA24F4AD2A000B3510 /* SecondViewController.swift in Sources */,
+				D301CDD824F4AD2A000B3510 /* FirstViewController.swift in Sources */,
+				D301CDD424F4AD2A000B3510 /* AppDelegate.swift in Sources */,
+				D301CDD624F4AD2A000B3510 /* SceneDelegate.swift in Sources */,
+				D301CDE024F4AD2A000B3510 /* BookKeeper.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D301CDE724F4AD2C000B3510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D301CDF024F4AD2C000B3510 /* BookKeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D301CDF224F4AD2C000B3510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D301CDFB24F4AD2C000B3510 /* BookKeeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D301CDED24F4AD2C000B3510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D301CDCF24F4AD2A000B3510 /* BookKeeper */;
+			targetProxy = D301CDEC24F4AD2C000B3510 /* PBXContainerItemProxy */;
+		};
+		D301CDF824F4AD2C000B3510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D301CDCF24F4AD2A000B3510 /* BookKeeper */;
+			targetProxy = D301CDF724F4AD2C000B3510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D301CDDB24F4AD2A000B3510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D301CDDC24F4AD2A000B3510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D301CDE324F4AD2C000B3510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D301CDE424F4AD2C000B3510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D301CDFD24F4AD2C000B3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D301CDFE24F4AD2C000B3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D301CE0024F4AD2C000B3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC00D5AD0882C2B8614E10E /* Pods-BookKeeper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyFirstApp.BookKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D301CE0124F4AD2C000B3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085DDA1E8158AA95BA173EA2 /* Pods-BookKeeper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyFirstApp.BookKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D301CE0324F4AD2C000B3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookKeeperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyFirstApp.BookKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookKeeper.app/BookKeeper";
+			};
+			name = Debug;
+		};
+		D301CE0424F4AD2C000B3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookKeeperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyFirstApp.BookKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookKeeper.app/BookKeeper";
+			};
+			name = Release;
+		};
+		D301CE0624F4AD2C000B3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookKeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyFirstApp.BookKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookKeeper;
+			};
+			name = Debug;
+		};
+		D301CE0724F4AD2C000B3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookKeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyFirstApp.BookKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookKeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D301CDCB24F4AD2A000B3510 /* Build configuration list for PBXProject "BookKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D301CDFD24F4AD2C000B3510 /* Debug */,
+				D301CDFE24F4AD2C000B3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D301CDFF24F4AD2C000B3510 /* Build configuration list for PBXNativeTarget "BookKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D301CE0024F4AD2C000B3510 /* Debug */,
+				D301CE0124F4AD2C000B3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D301CE0224F4AD2C000B3510 /* Build configuration list for PBXNativeTarget "BookKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D301CE0324F4AD2C000B3510 /* Debug */,
+				D301CE0424F4AD2C000B3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D301CE0524F4AD2C000B3510 /* Build configuration list for PBXNativeTarget "BookKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D301CE0624F4AD2C000B3510 /* Debug */,
+				D301CE0724F4AD2C000B3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D301CDDE24F4AD2A000B3510 /* BookKeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D301CDDF24F4AD2A000B3510 /* BookKeeper.xcdatamodel */,
+			);
+			currentVersion = D301CDDF24F4AD2A000B3510 /* BookKeeper.xcdatamodel */;
+			path = BookKeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D301CDC824F4AD2A000B3510 /* Project object */;
+}
